@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
+    <script type="text/javascript" src="questions.js"></script>
+    <script type="text/javascript" src="script.js" defer></script>
+    <title>Trivia Game</title>
+  </head>
+  <body>
+    <div id="main-container">
+      <div id="question-container" class="hide">
+        <p id="question"></p>
+        <div id="answer-container">
+          <button id="answer-1" class='btn'></button>
+          <button id="answer-2" class='btn'></button>
+          <button id="answer-3" class='btn'></button>
+          <button id="answer-4" class='btn'></button>
+          <button id="next-btn" class="hide"> next &#8594; </button>
+        </div>
+      </div>
+      <div id="intro-container" class = "">
+        <div id="intro-text"> quiz</div>
+        <button id="start-btn"> Let's play </button>
+      </div>
+      <div id = "end-screen-container" class="hide">
+        your result is
+        <div id=result-percentage></div>
+        <p id= "end-message"></p>
+        <button id="restart-btn"> play again </button>
+      </div>
+      <div id = "no-more-container" class="hide">
+        no more questions left in the database :(
+      </div>
+    </div>
+  </body>
+</html>
